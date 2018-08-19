@@ -124,8 +124,8 @@ iframe {
   font-weight: bold;
 }
 .header .profile-image {
-  margin-top: 30px;
   margin-right: 30px;
+  padding-top:0px;
 }
 .header .profile-content .name {
   color: #49515a;
@@ -176,6 +176,37 @@ iframe {
   background: #fff;
   padding: 30px;
 }
+.section .header {
+  background: #fff;
+  padding-bottom: 40px;
+  padding-top: 0px;
+}
+
+.section .header .social a {
+  background: #b0b7bf;
+  width: 36px;
+  height: 36px;
+  display: inline-block;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+  border-radius: 50%;
+  -moz-background-clip: padding;
+  -webkit-background-clip: padding-box;
+  background-clip: padding-box;
+  color: #fff;
+  text-align: center;
+}
+.section .header .social a:hover {
+  background: #778492;
+}
+
+.section .header .social a .fa {
+  font-size: 20px;
+  padding-top: 8px;
+}
+
 .section .heading {
   margin-top: 0;
   margin-bottom: 30px;
